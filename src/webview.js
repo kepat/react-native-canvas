@@ -55,7 +55,7 @@ class AutoScaledCanvas {
 
   set width(value) {
     this.savedWidth = value;
-    this.autoScale();
+    // this.autoScale();
     return value;
   }
 
@@ -65,7 +65,7 @@ class AutoScaledCanvas {
 
   set height(value) {
     this.savedHeight = value;
-    this.autoScale();
+    // this.autoScale();
     return value;
   }
 }
