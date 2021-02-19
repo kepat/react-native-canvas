@@ -46,7 +46,7 @@ class AutoScaledCanvas {
     if (this.savedWidth !== undefined) {
       this.element.width = this.savedWidth;
     }
-    window.autoScaleCanvas(this.element);
+    // window.autoScaleCanvas(this.element);
   }
 
   get width() {
